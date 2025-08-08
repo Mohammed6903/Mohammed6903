@@ -2,16 +2,12 @@
 
 Hi, I'm **Mohammed Usmani**, a passionate developer with a focus on **AI/ML**, **full-stack development**, and creating solutions that improve everyday lives. I enjoy applying my technical skills to real-world challenges, from accessibility to community engagement.
 
----
-
 ## 💡 What I Do
-- 🧠 Build intelligent systems using **Machine Learning**, **LangChain**, and **LLMs**
-- 📱 Develop cross-platform mobile apps with **React Native**, **Expo**, and **Firebase**
-- 🌐 Create robust full-stack apps with **Next.js**, **FastAPI**, **Node.js**, and **MongoDB**
-- 🧪 Automate backend testing using advanced frameworks like **AGNO Agent Framework**
-- ☁️ Work with modern tools like **Supabase**, **Chroma DB**, and **Prisma**
-
----
+- Build intelligent systems using **Machine Learning**, **LangChain**, and **LLMs**
+- Develop cross-platform mobile apps with **React Native**, **Expo**, and **Firebase**
+- Create robust full-stack apps with **Next.js**, **FastAPI**, **Node.js**, and **MongoDB**
+- Automate backend testing using advanced frameworks like **AGNO Agent Framework**, **Google ADK**, **LangGraph** and **CrewAI**
+- Work with modern tools like **Supabase**, **Chroma DB**, and **Prisma**
 
 ## 🚀 Featured Projects
 
@@ -28,23 +24,17 @@ AI-powered backend testing agent that auto-generates documentation and tests.
 An LLM-powered pipeline that filters resumes, detects bias, and automates HR tasks.  
 **Tech Stack:** LangChain · Google Gemini API · Python
 
----
-
 ## 🧠 Learning & Goals
 
-- 🎯 Mastering **AI + Backend integration** for intelligent systems
-- 📈 Scaling and deploying production-ready systems with **Docker/Kubernetes**
-- 🌍 Building tech for **sustainable development** and **social impact**
-
----
+- Mastering **AI + Backend integration** for intelligent systems
+- Scaling and deploying production-ready systems with **Docker/Kubernetes**
+- Building tech for **sustainable development** and **social impact**
 
 ## 🏆 Achievements
 
 - 🥉 **3rd Place - GNEC Hackathon 2024**
 - 🥉 **3rd Place - Codeathon DSA Hackathon (Vidyavardhini College)**
 - 👨‍💻 Participated in 6+ hackathons and growing!
-
----
 
 ## 🛠️ Tech Stack
 
@@ -54,14 +44,10 @@ An LLM-powered pipeline that filters resumes, detects bias, and automates HR tas
 **Databases:** MongoDB, PostgreSQL, Firebase, Supabase, Chroma DB  
 **Others:** Zustand, Tailwind CSS, Git, GitHub, Railway
 
----
-
 ## 🌐 Connect With Me
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammed-usmani-927a96286) 
 [![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohammedusmani2005@gmail.com)
-
----
 
 # 💻 Tech Stack
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
