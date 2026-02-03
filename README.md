@@ -1,72 +1,67 @@
-# 💫 About Me
+# 👋 Mohammed Usmani
 
-Hi, I'm **Mohammed Usmani**, a passionate developer with a focus on **AI/ML**, **full-stack development**, and creating solutions that improve everyday lives. I enjoy applying my technical skills to real-world challenges, from accessibility to community engagement.
+**Full Stack Developer**  
+MERN stack & Java backend focused · Production-ready web apps · Clean APIs · Scalable UI
 
-## 💡 What I Do
-- Build intelligent systems using **Machine Learning**, **LangChain**, and **LLMs**
-- Develop cross-platform mobile apps with **React Native**, **Expo**, and **Firebase**
-- Create robust full-stack apps with **Next.js**, **FastAPI**, **Node.js**, and **MongoDB**
-- Automate backend testing using advanced frameworks like **AGNO Agent Framework**, **Google ADK**, **LangGraph** and **CrewAI**
-- Work with modern tools like **Supabase**, **Chroma DB**, and **Prisma**
+## 🚀 Projects
 
-## 🚀 Featured Projects
+**🎮 Browser Gaming Platform (CMS + Analytics)**  
+Next.js · Node.js · PostgreSQL  
+RBAC admin CMS · ETL ingestion · Analytics dashboards  
 
-### 🏙️ [CityFix](https://github.com/Sumeet-2023/CityFix)
-A civic engagement platform for issue reporting, fundraising, and community collaboration.  
-**Tech Stack:** React Native · Firebase · Zustand · Node.js · Railway  
-🏆 *3rd Prize – GNEC Hackathon 2024*
+**💍 Matrimonial Platform**  
+Next.js 15 · Node.js · PostgreSQL  
+JWT auth · Razorpay webhooks · Cloudinary · Query caching  
 
-### 🤖 [API Agent](https://github.com/Mohammed6903/APIAgent)
-AI-powered backend testing agent that auto-generates documentation and tests.  
-**Tech Stack:** FastAPI · Python · AGNO Agent Framework
+**🏙️ CityFix – Civic Issue Reporting**  
+React Native · Node.js · MongoDB  
+🏆 3rd Prize – GNEC Hackathon 2024  
 
-### 🧑‍💼 [HR Automation System](https://github.com/Mohammed6903/HR-Automation)
-An LLM-powered pipeline that filters resumes, detects bias, and automates HR tasks.  
-**Tech Stack:** LangChain · Google Gemini API · Python
+## 🧠 Tech Stack
 
-## 🧠 Learning & Goals
+### Languages
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat&logo=openjdk)
+![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python)
+![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql)
 
-- Mastering **AI + Backend integration** for intelligent systems
-- Scaling and deploying production-ready systems with **Docker/Kubernetes**
-- Building tech for **sustainable development** and **social impact**
+### Frontend
+![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css)
+![Zustand](https://img.shields.io/badge/Zustand-181717?style=flat&logo=react)
+![TanStack Query](https://img.shields.io/badge/TanStack_Query-FF4154?style=flat&logo=react-query)
+
+### Backend
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-404D59?style=flat&logo=express)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis)
+
+### DevOps & Tools
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)
+![Git](https://img.shields.io/badge/Git-F05033?style=flat&logo=git)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel)
+![Railway](https://img.shields.io/badge/Railway-0B0D0E?style=flat&logo=railway)
+
+### AI
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai)
+![LangChain](https://img.shields.io/badge/LangChain-2E2E2E?style=flat)
+![Vector DB](https://img.shields.io/badge/Vector_DB-pgvector%2FChroma-5A67D8?style=flat)
 
 ## 🏆 Achievements
+- 🥉 GNEC Hackathon, 2024  
+- 🥉 Codeathon DSA Hackathon, 2024
+- Finalist - AI For Good Hackathon, 2025  
 
-- 🥉 **3rd Place - GNEC Hackathon 2024**
-- 🥉 **3rd Place - Codeathon DSA Hackathon (Vidyavardhini College)**
-- 👨‍💻 Participated in 6+ hackathons and growing!
-
-## 🛠️ Tech Stack
-
-**Languages:** Python, JavaScript, TypeScript  
-**Frameworks:** FastAPI, Next.js, React Native, Node.js, Express  
-**AI Tools:** LangChain, LangGraph, Gemini API, AGNO Framework  
-**Databases:** MongoDB, PostgreSQL, Firebase, Supabase, Chroma DB  
-**Others:** Zustand, Tailwind CSS, Git, GitHub, Railway
-
-## 🌐 Connect With Me
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/mohammed-usmani-927a96286) 
-[![Email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:mohammedusmani2005@gmail.com)
-
-# 💻 Tech Stack
-![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) 
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white) 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) 
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) 
-![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) 
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![React Native](https://img.shields.io/badge/react_native-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) 
-![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) 
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) 
-![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase) 
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) 
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) 
-![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) 
-![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) 
-![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) 
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+## 🌐 Links
+🔗 Portfolio: https://mohammedusmani.me  
+🔗 LinkedIn: https://linkedin.com/in/mohammed-usmani-927a96286  
+📧 Email: mohammedusmani2005@gmail.com  
 
 # 📊 GitHub Stats
 ![](https://github-readme-stats.vercel.app/api?username=Mohammed6903&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
@@ -74,6 +69,3 @@ An LLM-powered pipeline that filters resumes, detects bias, and automates HR tas
 ![](https://nirzak-streak-stats.vercel.app/?user=Mohammed6903&theme=dark&hide_border=false)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammed6903&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Mohammed6903&theme=radical&no-frame=false&no-bg=true&margin-w=4)
