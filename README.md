@@ -1,115 +1,93 @@
-# 👋 Mohammed Usmani
+# Mohammed Usmani
 
-**AI & ML Engineer**
-Agentic systems · RAG & retrieval engineering · Realtime voice · Multi-tenant backends
+AI & ML Engineer, based in Bengaluru. I build agentic systems that run in
+production — multi-agent orchestration, retrieval pipelines, realtime voice,
+and the multi-tenant backends underneath them.
 
-I build AI that runs in production — 15+ systems shipped across sales, accounting
-and workspace products.
+Most of what I work on is closed-source, so I write it up properly at
+[mohammedusmani.me](https://www.mohammedusmani.me). There's an agent on the
+homepage that will answer questions about any of it from a real corpus, and
+cite where the answer came from.
 
-🔗 **[mohammedusmani.me](https://www.mohammedusmani.me)** — case studies, and an
-agent that answers questions about my work from a real corpus, with sources.
+---
 
-## 🚀 What I've Built
+### Things I've built
 
-**📊 [FS Preparation Agent](https://www.mohammedusmani.me/projects/fs-prep-agent)** — Financial statement engine
-`Python · FastAPI · Azure OpenAI · pgvector`
-A Cross-Reference Graph links every statement line to its note and ledger account,
-confirmed by **arithmetic tie-out** rather than model judgement — the LLM only
-points at cells, so it can never hallucinate a passing reconciliation. ~89K LOC.
+**[FS Preparation Agent](https://www.mohammedusmani.me/projects/fs-prep-agent)** — a financial statement engine, ~89K LOC of Python.
+Its core is a Cross-Reference Graph linking every statement line to its note and
+ledger account. Links are proposed by deterministic resolvers and only confirmed
+when the numbers actually reconcile. Where an LLM helps, it just points at cells —
+the pass/fail verdict comes from the same arithmetic either way, so it can't
+hallucinate a passing reconciliation.
 
-**🧠 [NetworkChains](https://www.mohammedusmani.me/projects/networkchains)** — AI sales & relationship platform · [live](https://www.networkchains.com)
-`TypeScript · Qdrant · Deepgram · LiveKit`
-Agentic sales copilot, realtime call assistant, relationship graph and image
-editing over six vector collections. A seven-layer prompt stack cut worst-case
-input from ~96K to ~2K tokens/turn. Speaker attribution comes from the transport,
-not a diarization model.
+**[NetworkChains](https://www.mohammedusmani.me/projects/networkchains)** — the AI layer of a sales platform. [Live](https://www.networkchains.com).
+An agentic copilot, a realtime call assistant, a relationship graph and
+conversational image editing, over six purpose-scoped vector collections. The
+part I'm happiest with: a seven-layer prompt stack that took worst-case input
+from ~96K to ~2K tokens a turn, and getting speaker attribution out of the
+transport instead of paying for a diarization model.
 
-**📒 [Luca — ICAI CA-GPT](https://www.mohammedusmani.me/projects/luca)** — AI accounting platform · [live](https://askluca.in)
-`TypeScript · React · Express · PostgreSQL`
-~199K LOC for Indian Chartered Accountants. Health-scored fallback routing across
-five LLM providers, pgvector RAG, 11 chat modes, 10 statutory-compliance modules,
+**[Luca](https://www.mohammedusmani.me/projects/luca)** — AI accounting platform for Indian CAs. [Live](https://askluca.in).
+~199K LOC. Five LLM providers behind one registry with health-scored fallback,
+pgvector RAG, 11 chat modes, and 10 statutory-compliance modules over a
 106-table schema.
 
-**👁️ [EyesAI](https://www.mohammedusmani.me/projects/eyesai)** — Autonomous Android accessibility agent
-`Kotlin · FastAPI · Vertex AI · TFLite`
-Planner→Executor→Verifier agent driving a phone end-to-end for blind and
-low-vision users at **87% task completion**. On-device vision at 88.2% / 151ms,
-multilingual voice control (English/Hindi/Hinglish) at 94%.
+**[EyesAI](https://www.mohammedusmani.me/projects/eyesai)** — an Android agent that operates a phone end-to-end for blind users.
+Planner → Executor → Verifier, 87% task completion. On-device vision at 88.2% /
+151ms, and voice control that handles English, Hindi and Hinglish at 94%. The
+Look screen deliberately draws no bounding boxes — overlays are useless to the
+people it's for, so everything comes through speech and haptics.
 
-→ **[All 23 systems](https://www.mohammedusmani.me/work)**
+The rest — 23 systems in total — is at [mohammedusmani.me/work](https://www.mohammedusmani.me/work).
 
-## 📂 Open Source
+---
 
-| | | |
-|---|---|---|
-| [**Cortex**](https://github.com/Mohammed6903/Cortex) | Self-curating agent memory — belief revision over an episodic log | `TypeScript` |
-| [**GoalKeeper**](https://github.com/Mohammed6903/GoalKeeper) | Deterministic urgency engine with an LLM advisory layer that never silently mutates data | `Python` |
-| [**APIAgent**](https://github.com/Mohammed6903/APIAgent) | Multi-agent API testing & OpenAPI doc generation | `Python` |
-| [**gameweb**](https://github.com/Mohammed6903/gameweb) | Gaming portal — ETL for 3,000+ games, RBAC CMS with row-level security | `Next.js` |
-| [**JobTrack**](https://github.com/Mohammed6903/JobTrack) | Gemini-powered application tracker with a six-model fallback chain | `React 19` |
-| [**solidboard**](https://github.com/Mohammed6903/solidboard) | Kanban on SolidJS — custom drag-and-drop, two runtime deps | `SolidJS` |
-| [**CityFix**](https://github.com/Sumeet-2023/CityFix) | Civic issue reporting, UN SDG 11 — 🏆 3rd, GNEC International | `React Native` |
+### Open source
 
-## 🧠 Tech Stack
+A few of these are worth a look:
 
-### AI & Agents
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat&logo=openai)
-![Anthropic](https://img.shields.io/badge/Anthropic-191919?style=flat&logo=anthropic)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat&logo=googlegemini)
-![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat&logo=langchain)
-![MCP](https://img.shields.io/badge/MCP-000000?style=flat)
-![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=flat&logo=qdrant)
-![pgvector](https://img.shields.io/badge/pgvector-336791?style=flat&logo=postgresql)
-![Deepgram](https://img.shields.io/badge/Deepgram-13EF93?style=flat&logo=deepgram)
-![LiveKit](https://img.shields.io/badge/LiveKit-1E88E5?style=flat&logo=livekit)
+- **[Cortex](https://github.com/Mohammed6903/Cortex)** — self-curating memory for a personal agent. Belief revision over an episodic log, so it updates and retires beliefs instead of just appending.
+- **[GoalKeeper](https://github.com/Mohammed6903/GoalKeeper)** — Taskwarrior-style urgency engine with an LLM layer bolted on top. The scoring is pure and fully tested; the model proposes and never silently mutates your data.
+- **[APIAgent](https://github.com/Mohammed6903/APIAgent)** — multi-agent API testing that parses a project and writes its own OpenAPI docs.
+- **[solidboard](https://github.com/Mohammed6903/solidboard)** — Kanban on SolidJS with a hand-rolled drag-and-drop engine. Two runtime dependencies, total.
+- **[gameweb](https://github.com/Mohammed6903/gameweb)** — gaming portal with an ETL pipeline that ingests and normalises 3,000+ games.
+- **[CityFix](https://github.com/Sumeet-2023/CityFix)** — civic issue reporting, UN SDG 11. I built the backend and schema. Took 3rd at GNEC International.
 
-### Languages
-![Python](https://img.shields.io/badge/Python-3670A0?style=flat&logo=python)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat&logo=kotlin)
-![SQL](https://img.shields.io/badge/SQL-003B57?style=flat&logo=postgresql)
+---
 
-### Backend
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat&logo=node.js)
-![Express](https://img.shields.io/badge/Express.js-404D59?style=flat&logo=express)
-![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat&logo=nestjs)
-![Celery](https://img.shields.io/badge/Celery-37814A?style=flat&logo=celery)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis)
+### How I tend to work
 
-### Frontend & DevOps
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=flat&logo=googlecloud)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazonwebservices)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux)
+If there's one thing that shows up in everything above, it's that the model
+proposes and deterministic code decides. Tie-outs are arithmetic. Figures an
+agent states have to come from a tool call or they get flagged. Money that can't
+be traced to a source gets withheld rather than shown. It's slower to build and
+much harder to embarrass.
 
-## 🏆 Achievements
+**Stack:** Python (FastAPI), TypeScript (Node, Express, NestJS), LangGraph, MCP,
+OpenAI / Anthropic / Gemini, Deepgram and Voxtral for speech, Qdrant and pgvector
+for retrieval, Celery and BullMQ, PostgreSQL / MongoDB / Redis, Docker on
+GCP, AWS and DigitalOcean.
 
-- 🏅 **Top 17 Nationally** — AI For Good Hackathon, Blend360 (2025) · from 5,000+ applicants
-- 🥉 **3rd Prize** — GNEC International Hackathon, Global NGO Executive Community (2024)
-- 🥉 **3rd Prize** — Codeathon, Vidyavardhini College of Engineering (2024)
+---
 
-## 🌐 Links
+### Elsewhere
 
-🔗 [Portfolio](https://www.mohammedusmani.me) ·
-📄 [Resume](https://www.mohammedusmani.me/resume) ·
-💼 [LinkedIn](https://linkedin.com/in/mohammed-usmani-927a96286) ·
-🏗️ [Devpost](https://devpost.com/mohammedusmani2005) ·
-⚡ [Devfolio](https://devfolio.co/@Mohamammed) ·
-𝕏 [@MohammedUs68507](https://x.com/MohammedUs68507)
+[Portfolio](https://www.mohammedusmani.me) ·
+[Resume](https://www.mohammedusmani.me/resume) ·
+[LinkedIn](https://linkedin.com/in/mohammed-usmani-927a96286) ·
+[Devpost](https://devpost.com/mohammedusmani2005) ·
+[Devfolio](https://devfolio.co/@Mohamammed) ·
+[X](https://x.com/MohammedUs68507)
 
-📧 mohammedusmani2005@gmail.com · 📍 Bengaluru, India
+mohammedusmani2005@gmail.com
 
-## 📊 By the Numbers
+Also: Top 17 nationally at Blend360's AI For Good (out of 5,000+ applicants),
+and 3rd at GNEC International and at Codeathon.
+
+---
 
 ![Mohammed Usmani — production output and contribution history](https://www.mohammedusmani.me/api/card)
 
-<sub>Contributions include private work — 2,116 of 2,799 are in private repos.</sub>
+<sub>Contribution counts include private repos — 2,116 of 2,799.</sub>
 
 ![](https://streak-stats.demolab.com/?user=Mohammed6903&theme=dark&hide_border=false)
