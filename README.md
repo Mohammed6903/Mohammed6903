@@ -38,17 +38,20 @@ Planner → Executor → Verifier, 87% task completion. On-device vision at 88.2
 Look screen deliberately draws no bounding boxes — overlays are useless to the
 people it's for, so everything comes through speech and haptics.
 
-The rest — 23 systems in total — is at [mohammedusmani.me/work](https://www.mohammedusmani.me/work).
+The rest — [23 systems total](https://www.mohammedusmani.me/work) — is at mohammedusmani.me/work, with writeups that go into the engineering decisions.
 
 ---
 
 ### Open source
 
-A few of these are worth a look:
+Grouped by what they actually are:
 
+**Agent systems**
 - **[Cortex](https://github.com/Mohammed6903/Cortex)** — self-curating memory for a personal agent. Belief revision over an episodic log, so it updates and retires beliefs instead of just appending.
 - **[GoalKeeper](https://github.com/Mohammed6903/GoalKeeper)** — Taskwarrior-style urgency engine with an LLM layer bolted on top. The scoring is pure and fully tested; the model proposes and never silently mutates your data.
 - **[APIAgent](https://github.com/Mohammed6903/APIAgent)** — multi-agent API testing that parses a project and writes its own OpenAPI docs.
+
+**Apps & tools**
 - **[solidboard](https://github.com/Mohammed6903/solidboard)** — Kanban on SolidJS with a hand-rolled drag-and-drop engine. Two runtime dependencies, total.
 - **[gameweb](https://github.com/Mohammed6903/gameweb)** — gaming portal with an ETL pipeline that ingests and normalises 3,000+ games.
 - **[CityFix](https://github.com/Sumeet-2023/CityFix)** — civic issue reporting, UN SDG 11. I built the backend and schema. Took 3rd at GNEC International.
@@ -79,7 +82,9 @@ GCP, AWS and DigitalOcean.
 [Devfolio](https://devfolio.co/@Mohamammed) ·
 [X](https://x.com/MohammedUs68507)
 
-mohammedusmani2005@gmail.com
+mohammedusmani2005@gmail.com · **Open to AI/ML and backend engineer roles at product-focused startups.**
+
+---
 
 Also: Top 17 nationally at Blend360's AI For Good (out of 5,000+ applicants),
 and 3rd at GNEC International and at Codeathon.
@@ -89,5 +94,3 @@ and 3rd at GNEC International and at Codeathon.
 ![Mohammed Usmani — production output and contribution history](https://www.mohammedusmani.me/api/card)
 
 <sub>Contribution counts include private repos — 2,116 of 2,799.</sub>
-
-![](https://streak-stats.demolab.com/?user=Mohammed6903&theme=dark&hide_border=false)
