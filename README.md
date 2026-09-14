@@ -106,10 +106,10 @@ multilingual voice control (English/Hindi/Hinglish) at 94%.
 
 📧 mohammedusmani2005@gmail.com · 📍 Bengaluru, India
 
-## 📊 GitHub Stats
+## 📊 By the Numbers
 
-![](https://github-readme-stats.vercel.app/api?username=Mohammed6903&theme=dark&hide_border=false&include_all_commits=false&count_private=false)
+![Mohammed Usmani — production output and contribution history](https://www.mohammedusmani.me/api/card)
 
-![](https://nirzak-streak-stats.vercel.app/?user=Mohammed6903&theme=dark&hide_border=false)
+<sub>Contributions include private work — 2,116 of 2,799 are in private repos.</sub>
 
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Mohammed6903&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+![](https://streak-stats.demolab.com/?user=Mohammed6903&theme=dark&hide_border=false)
